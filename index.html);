@@ -2,9 +2,5 @@ hello
 
 
 <script type="application/javascript">
-const searchParams = new URLSearchParams(location.search);
-
-for (const param of searchParams) {
-  console.log(param);
-}
+alert('aaa')
 </script>
