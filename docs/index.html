@@ -1,5 +1,8 @@
 hello hi2222
 
 <script type="application/javascript">
-alert('aaa')
+const queryString = window.location.search;
+console.log(queryString);
+const urlParams = new URLSearchParams(queryString);
+console.log(urlParams.get('url'))
 </script>
